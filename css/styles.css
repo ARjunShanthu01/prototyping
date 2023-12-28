@@ -1,0 +1,182 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar styling */
+.navbar ul li{
+    padding: 10px;
+    font-weight: 600;
+}
+/* header */
+header{
+    background-color: #40d2d2;
+    width: 100%;
+    height: 164vh;
+}
+/* banner section */
+.banner-content{
+    padding-top: 100px;
+}
+.banner-content h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-content p{
+    font-size: 25px;
+}
+.image{
+    margin-top: 50px;
+    border-radius: 12px;
+}
+/* service section */
+.video{
+padding: 50px 50px;
+ }
+.video-tag{
+   padding: 120px 50px; 
+}
+.video-tag h2{
+    font-size: 45px;
+    line-height: 1;
+ }
+ .video-tag p{
+    padding: 20px 0s; 
+    font-size: 20px;
+    line-height: 1.5;
+ }
+ .content {
+    padding: 80px 400px;
+    font-size: 30px;
+}
+.content img{
+    padding: 5px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* carousel section */
+.carousel-container{
+   padding: 0 ;
+    color: #fff;
+}
+.items{
+    padding: 100px 50px ;
+    height: 60vh;
+}
+.c-img{
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 50%;
+}
+.c-content{
+    padding-top: 80px;
+}
+/* wrapper section */
+.wraper{
+    width: 100%;
+    background-color: #40d2d2;
+}
+.wraper-text{
+    padding:60px 50px ;
+}
+.wraper-text h2{
+    font-weight: bold;
+}
+.wraper-text p{
+   font-size: 25px;
+}
+form input{
+    padding: 10px 16px;
+    border:none;
+}
+form input{
+    margin: 5px 0;
+    padding: 10px 16px;
+    background-color: #fff;
+    color: #333;
+}
+.getstart-btn{
+    margin: 5px 0;
+    padding: 10px 16px;
+    border:none;
+}
+.getstart-btn:hover{
+    background-color: #333;
+    color: #fff; 
+}
+.submit-btn:hover{
+    background-color: #333;
+    color: #fff;  
+}
+/* footer section */
+.footer-links ul {
+    padding-left: 0;
+    padding-bottom: 10px;
+    list-style:none;    
+}
+.footer-links h4 {
+   color:#fff;
+   font-weight: 700;
+}
+.footer-links ul li{
+    padding:5px 0; 
+}
+.footer-links ul a{
+    color: #fff;
+}
+.footer-links ul a:hover{
+    color: rgb(18, 214, 204);
+    text-decoration: none;
+}
+.social-links a{
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+}
+.privacy-link a{
+    color: #fff;
+    padding:5px 10px;
+}
+.bottom-footer{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+/* Breakpoints */
+@media screen and (max-width: 	720px){
+    header{
+        background-color: #40d2d2;
+        width: 100%;
+        height: 100vh;
+    }
+    .banner-content{
+        padding: 10% 0;
+    }
+    .banner-content h2{
+        font-size: 25px;
+    }
+    .video{
+        padding: 10px 10px;
+         }
+         .video-tag{
+            padding: 20px 20px; 
+         }
+         .video-tag h2{
+            font-size: 25px;
+            line-height: 1;
+         }
+         .video-tag p{
+            padding: 20px 0s; 
+            font-size: 18px;
+            line-height: 1.5;
+         }
+    .items{
+        padding: 5px 10px ;
+        height: 110vh;  
+    }
+    .wraper-text{
+        padding:60px 20px ;
+    }
+    .wraper-text p{
+       font-size: 18px;
+    }
+}
+
